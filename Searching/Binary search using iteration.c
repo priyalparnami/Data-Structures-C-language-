@@ -12,21 +12,20 @@ int main (void){
     high = n-1;
     while (low <= high){
         mid = (low + high)/2;
-        for (i = 0; i<n; i++){
-            if (arr[i] == key){
-                printf("Element found at position %d\n", i+1);
-                found = 1;
-                return 0;
-            }
-            else if (key < arr[i]){
-                high = mid - 1;
-            }
-            else{
-                low = mid + 1;
-            }
+        if (arr[mid] == key){
+            printf("Element found at position %d\n", i+1);
+            found = 1;
+            break;
+        }
+        else if (key < arr[mid]){
+            high = mid - 1;
+        }
+        else{
+            low = mid + 1;
         }
     }
     if (found == 0){
         printf("Element not found\n");
     }
+    return 0;
 }
