@@ -13,6 +13,14 @@ int main(void){
             max=arr[i];
         }
     }
-    printf("Maximum element is %d", max);
+    int sec_lar=arr[0];
+    for (i=1;i<n;i++){
+        if (arr[i] < max){
+            if(sec_lar<arr[i]){
+                sec_lar = arr[i];
+            }
+        }
+    }
+    printf("Second largest element is %d", sec_lar);
     return 0;
 }
