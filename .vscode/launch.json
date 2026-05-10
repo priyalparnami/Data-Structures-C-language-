@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/hp/OneDrive/Desktop/Data Structures/Linked List/Singly Linked List",
-      "program": "c:/Users/hp/OneDrive/Desktop/Data Structures/Linked List/Singly Linked List/build/Debug/outDebug",
+      "cwd": "c:/Users/hp/OneDrive/Desktop/Data-Structures/Arrays",
+      "program": "c:/Users/hp/OneDrive/Desktop/Data-Structures/Arrays/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
